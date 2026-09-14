@@ -1,4 +1,5 @@
 import './main.scss'
+import './main.js'
 import Chart from 'chart.js/auto';
 const chart1 = document.getElementById("chart1")
 const chart2 = document.getElementById("chart2")
