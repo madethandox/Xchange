@@ -1,0 +1,25 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "update": "npx sass --watch ./src/main.scss:./dist/main.css",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "live-server": "^1.2.2",
+    "sass": "^1.104.1",
+    "vite-plugin-sass": "^0.1.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./dist/main.css">
+</head>
+<body>
+    <div id="sidebar">
+        <img id="close-icon" src="./Media/Icons/close.svg">
+        <div id="side1">
+            <img src="./Media/Icons/Icon.svg">
+            <h1>Xchange</h1>
+        </div>
+        <div id="side2">
+            <div id="pfp">
+                <img src="Media/Photos/pfp.png">
+            </div>
+            <div id="name">
+                <p>Ethan Maddox</p>
+                <h6>Premium user</h6>
+            </div>
+        </div>
+        <div id="side3">
+            <p>Main Menu</p>
+        </div>
+        <div id="side4">
+            <ul>
+                <li>Dashboard</li>
+                <li>Exchange Rates</li>
+                <li>Rate History</li>
+                <li>Currency Converter</li>
+                <li>Favorites</li>
+                <li>Currencies</li>
+                <li>Market Trends</li>
+                <li>Market News</li>
+                <li>Calculator</li>
+                <li>Charts</li>
+                <li>Settings</li>
+                <li>Popups</li>
+                <li>Notifications</li>
+            </ul>
+        </div>
+    </div>
+    <div id="flex1">
+        <nav>
+            <div id="nav1">
+                <img id="menu-icon" src="./Media/Icons/menu.svg">
+                <img src="./Media/Icons/English.svg">
+                <p>Help: +1-844-606-7337</p>
+            </div>
+            <div id="nav2">
+                <input type="text" placeholder="Search Here">
+                <img src="./Media/Icons/search.svg">
+            </div>
+            <div id="nav3">
+                <div><img class="notification" src="./Media/Icons/notification.svg"></div>
+                <div><img class="notification" src="./Media/Icons/mail.svg"></div>
+                <img class="pfp" src="./Media/Photos/pfp.png">
+                <span></span>
+            </div>
+        </nav>
+        <main>
+            <div class="bubble">
+                <canvas id="chart1"></canvas>
+            </div>
+            <div class="bubble">
+                <canvas id="chart2"></canvas>
+            </div>
+            <div class="bubble">
+                <canvas id="chart3"></canvas>
+            </div>
+            <div class="bubble">
+                <canvas id="chart4"></canvas>
+            </div>
+        </main>
+    </div>
+    <script type="module" src="./src/module.js"></script>
+    <script src="./src/main.js"></script>
+</body>
+</html>
