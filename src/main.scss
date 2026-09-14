@@ -74,7 +74,11 @@ body {
                 &:hover {
                     cursor: pointer;
                 }
-            }}
+            }
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
         div#nav3 {
             display: flex;
             justify-content: space-between;
@@ -260,12 +264,15 @@ body {
         }
     }
     @media (max-width:1200px) {
-            width: 20rem;
-            height: 100dvh;
-            transform: translateX(-100%);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        height: auto;
+        width: 20rem;
+        transform: translateX(-100%);
         }
      @media (max-width:768px) {
             width: 18rem;
-            height: 100dvh;
         }
 }
